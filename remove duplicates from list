@@ -1,0 +1,14 @@
+#########  Write the program to remove the duplicate element of the list.
+l1 = [1,1,2,2,3]  
+l2 = []
+for i in l1:
+  if i not in l2:
+    l2.append(i)
+print(l2)  
+
+#######  using list comprehension
+l1 = [1,1,2,2,3] 
+print ("The list is: " + str(l1)) 
+l2 = [] 
+[l2.append(x) for x in l1 if x not in l2] 
+print ("The list after removing duplicates: " + str(l2))
