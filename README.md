@@ -1,2 +1,3 @@
 # youtubeshorts_code
-python shorts
+All my youtube shorts code are present in this repo
+
