@@ -1,16 +1,37 @@
-# Creating 3x3 matrix using list comprehension
+* CREATE 3X3 MATRIX
 m = [[i for i in range(3)]for j in range(3)]
 m
-### output
+### output ###
 [[0, 1, 2], [0, 1, 2], [0, 1, 2]]
 
-# print multiplication of numbers 
+* PRINT MULTIPLICATION OF NUMBERS
 a = [[i*j for i in range(1,j+1)] for j in range(1,7)]
 a
-### output
+### output ###
 [[1],
  [2, 4],
  [3, 6, 9],
  [4, 8, 12, 16],
  [5, 10, 15, 20, 25],
  [6, 12, 18, 24, 30, 36]]
+ 
+* PRINT REVERSE OF WORDS
+L = [i[::-1] for i in ('list','python')]
+L
+### OUTPUT ###
+['tsil', 'nohtyp']
+
+* PRINT WORDS ENDS WITH t
+n = ['but','pulkit','get','can','did']
+l = [i for i in n if i.lower().endswith('t')]
+l
+### OUTPUT ###
+['but', 'pulkit', 'get']
+
+* PRINT WORDS ENDS WITH t AND LENGTH >3
+n =  ['but','pulkit','get','can','did' ]
+l = [i for i in n if i.lower().endswith('t') and len(i)>3]
+l
+### OUTPUT ###
+['pulkit']
+
