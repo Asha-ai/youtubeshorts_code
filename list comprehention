@@ -35,3 +35,18 @@ l
 ### OUTPUT ###
 ['pulkit']
 
+* PRINTMATRIX AND TRANSPOSE IT USING LIST COMPREHENSION
+m = [[i for i in range(3)]for j in range(3)]
+m
+### OUTPUT ###
+[[0, 1, 2], [0, 1, 2], [0, 1, 2]]
+
+* TRANSPOSE OF A MATRIX
+t = [[r[i]for r in m]for i in range(3)]
+t
+### OUTPUT ###
+t = [[r[i]for r in m]for i in range(3)]
+t
+
+
+
