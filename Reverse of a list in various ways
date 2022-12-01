@@ -1,7 +1,10 @@
-# using pop and insert
-d = [0,1,2,3,4]
-l-i = d.pop()
-d.insert(i,l-i)
+# Using insert() method
+l = [0,1,2,3,4]
+rl = []
+for i in l:
+  rl.insert(0,i)
+print("Reverse of elements:",rl )
+
 
 # using user defined method
 def rev(l):
