@@ -1,4 +1,4 @@
-# Using insert() method
+# 1. Using insert() method
 l = [0,1,2,3,4]
 rl = []
 for i in l:
@@ -6,18 +6,27 @@ for i in l:
 print("Reverse of elements:",rl )
 
 
-# using user defined method
+# 2. using user defined method
 def rev(l):
   return [i for i in reversed(l)]
-
+# lsit of elements
 l = [4,5,6]
 rev(l)  
 
-# using indexing method
+# 3. using indexing method
 m = [1,2,3,4]
 m[::-1]
 
-# using predefined function
+# 4. using predefined function
 u = [22,33,44]
 u.reverse()
 u
+
+# 5. Using pop() and append()
+l = [1, 2, 3, 4, 5]
+rl = []
+for i in range(len(l)):
+  rl.append(l.pop())
+print("reverse of elements: : ", rl)
+
+# Like and Subscribe for further videos and code link
