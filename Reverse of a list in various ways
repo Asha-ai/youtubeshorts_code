@@ -1,6 +1,7 @@
-# using indexing method
+# using pop and insert
 d = [0,1,2,3,4]
-d[::-1]
+l-i = d.pop()
+d.insert(i,l-i)
 
 # using user defined method
 def rev(l):
