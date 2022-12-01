@@ -1,0 +1,19 @@
+# using indexing method
+d = [0,1,2,3,4]
+d[::-1]
+
+# using user defined method
+def rev(l):
+  return [i for i in reversed(l)]
+
+l = [4,5,6]
+rev(l)  
+
+# using indexing method
+m = [1,2,3,4]
+m[::-1]
+
+# using predefined function
+u = [22,33,44]
+u.reverse()
+u
